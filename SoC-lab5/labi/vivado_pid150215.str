@@ -1,0 +1,1276 @@
+/*
+
+Xilinx Vivado v2022.1 (64-bit) [Major: 2022, Minor: 1]
+SW Build: 3526262 on Mon Apr 18 15:47:01 MDT 2022
+IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+
+Process ID (PID): 150215
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Nov 16 05:29:21 EST 2023
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Ubuntu
+OS Version: 5.15.0-88-generic
+OS Architecture: amd64
+Available processors (cores): 2
+
+Display: localhost:11.0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9
+Java executable: 	/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m, -Xrs]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ubuntu
+User home directory: /home/ubuntu
+User working directory: /home/ubuntu/labi
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2022.1
+RDI_DATADIR: /tools/Xilinx/Vivado/2022.1/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2022.1/bin
+
+Vivado preferences file: /home/ubuntu/.Xilinx/Vivado/2022.1/vivado.xml
+Vivado preferences directory: /home/ubuntu/.Xilinx/Vivado/2022.1/
+Vivado layouts directory: /home/ubuntu/.Xilinx/Vivado/2022.1/data/layouts
+PlanAhead jar file: 	/tools/Xilinx/Vivado/2022.1/lib/classes/planAhead.jar
+Vivado log file: 	/home/ubuntu/labi/vivado.log
+Vivado journal file: 	/home/ubuntu/labi/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-150215-ubuntu2004
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2022.1
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2022.1
+XILINX_SDK: /tools/Xilinx/Vitis/2022.1
+XILINX_VITIS: /tools/Xilinx/Vitis/2022.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2022.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2022.1
+
+
+GUI allocated memory:	429 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,983 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,804 MB. GUI used memory: 55 MB. Current time: 11/16/23, 5:29:22 AM EST
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/ubuntu/labi/vvd_labi/vvd_labi.xpr", 1); // r
+// [GUI Memory]: 62 MB (+62295kb) [00:00:24]
+// [Engine Memory]: 1,807 MB (+1743616kb) [00:00:24]
+// Opening Vivado Project: /home/ubuntu/labi/vvd_labi/vvd_labi.xpr. Version: Vivado v2022.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /home/ubuntu/labi/vvd_labi/vvd_labi.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ubuntu/labi/vitis_hls_project'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 113 MB (+50128kb) [00:00:28]
+// WARNING: HEventQueue.dispatchEvent() is taking  5399 ms.
+// [Engine Memory]: 1,899 MB (+1208kb) [00:00:32]
+// Tcl Message: open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 7603.535 ; gain = 82.426 ; free physical = 4158 ; free virtual = 7550 
+// Project name: vvd_labi; location: /home/ubuntu/labi/vvd_labi; part: xc7z020clg400-1
+// Elapsed time: 11 seconds
+dismissDialog("Open Project"); // bA
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [GUI Memory]: 128 MB (+10112kb) [00:00:40]
+// Elapsed time: 11 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j
+closeTask("Project Manager", "Project Manager", "DesignTask.PROJECT_MANAGER");
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Close Project"); // A
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // n
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: open_bd_design {/home/ubuntu/labi/vvd_labi/vvd_labi.srcs/sources_1/bd/design_1/design_1.bd} 
+// Tcl Message: Reading block design file </home/ubuntu/labi/vvd_labi/vvd_labi.srcs/sources_1/bd/design_1/design_1.bd>... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  1512 ms.
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 7644.211 ; gain = 6.641 ; free physical = 4207 ; free virtual = 7604 
+// 'ca' command handler elapsed time: 6 seconds
+dismissDialog("Open Block Design"); // bA
+// JavaFX intialization before: 1700130607351
+// JavaFX initialization after: 1700130607783
+// WARNING: HTimer (Open addressing views timer) is taking 518ms to process. Increasing delay to 1300 ms.
+// [Engine Memory]: 2,057 MB (+66704kb) [00:01:00]
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "System_zoom_fit"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// [Engine Memory]: 2,185 MB (+25434kb) [00:01:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,178 MB. GUI used memory: 87 MB. Current time: 11/16/23, 5:30:12 AM EST
+// Elapsed time: 34 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // l
+// Tcl Command: 'if {[string equal [get_runs -quiet synth_1] ""]} {;     create_run -name synth_1 -part xc7z020clg400-1 -flow {Vivado Synthesis 2020} -strategy "Vivado Synthesis Defaults" -report_strategy {No Reports} -constrset constrs_1; } else {;   set_property strategy "Vivado Synthesis Defaults" [get_runs synth_1]; ...'
+// Tcl Command: 'if {[string equal [get_runs -quiet synth_1] ""]} {;     create_run -name synth_1 -part xc7z020clg400-1 -flow {Vivado Synthesis 2020} -strategy "Vivado Synthesis Defaults" -report_strategy {No Reports} -constrset constrs_1; } else {;   set_property strategy "Vivado Synthesis Defaults" [get_runs synth_1];   set_property flow "Vivado Synthesis 2020" [get_runs synth_1]; }'
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: RUN_MODIFY
+// Tcl Message: if {[string equal [get_runs -quiet synth_1] ""]} {     create_run -name synth_1 -part xc7z020clg400-1 -flow {Vivado Synthesis 2020} -strategy "Vivado Synthesis Defaults" -report_strategy {No Reports} -constrset constrs_1 } else {   set_property strategy "Vivado Synthesis Defaults" [get_runs synth_1]   set_property flow "Vivado Synthesis 2020" [get_runs synth_1] } 
+// [GUI Memory]: 146 MB (+11853kb) [00:01:46]
+// Elapsed time: 20 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // l
+// Tcl Command: 'set obj [get_runs synth_1]; set_property set_report_strategy_name 1 $obj; set_property report_strategy {Vivado Synthesis Default Reports} $obj; set_property set_report_strategy_name 0 $obj'
+// Tcl Command: 'set obj [get_runs synth_1]'
+// Tcl Command: 'set_property set_report_strategy_name 1 $obj'
+// Tcl Command: 'set_property report_strategy {Vivado Synthesis Default Reports} $obj'
+// TclEventType: RUN_MODIFY
+// Tcl Command: 'set_property set_report_strategy_name 0 $obj'
+// Tcl Message: set obj [get_runs synth_1] 
+// Tcl Message: synth_1 
+// Tcl Message: set_property set_report_strategy_name 1 $obj 
+// Tcl Message: set_property report_strategy {Vivado Synthesis Default Reports} $obj 
+// Tcl Message: set_property set_report_strategy_name 0 $obj 
+// Elapsed time: 14 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // l
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs synth_1] synth_1_synth_report_utilization_0] "" ] } {;   create_report_config -report_name synth_1_synth_report_utilization_0 -report_type report_utilization:1.0 -steps synth_design -runs synth_1; }; set obj [get_report_configs -of_objects [g...'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs synth_1] synth_1_synth_report_utilization_0] "" ] } {;   create_report_config -report_name synth_1_synth_report_utilization_0 -report_type report_utilization:1.0 -steps synth_design -runs synth_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs synth_1] synth_1_synth_report_utilization_0]'
+// Tcl Command: 'if { $obj != "" } {; ; }'
+// Tcl Command: 'set obj [get_runs synth_1]'
+// Tcl Command: 'set_property -name "auto_incremental_checkpoint.directory" -value "/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1" -objects $obj'
+// TclEventType: RUN_OPTIONS_MODIFIED
+// Tcl Command: 'set_property -name "strategy" -value "Vivado Synthesis Defaults" -objects $obj'
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs synth_1] synth_1_synth_report_utilization_0] "" ] } {   create_report_config -report_name synth_1_synth_report_utilization_0 -report_type report_utilization:1.0 -steps synth_design -runs synth_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs synth_1] synth_1_synth_report_utilization_0] 
+// Tcl Message: synth_1_synth_report_utilization_0 
+// Tcl Message: if { $obj != "" } {  } 
+// Tcl Message: set obj [get_runs synth_1] 
+// Tcl Message: synth_1 
+// Tcl Message: set_property -name "auto_incremental_checkpoint.directory" -value "/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1" -objects $obj 
+// Tcl Message: set_property -name "strategy" -value "Vivado Synthesis Defaults" -objects $obj 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "current_run -synthesis [get_runs synth_1]", true); // l
+// Tcl Command: 'current_run -synthesis [get_runs synth_1]'
+// Tcl Command: 'current_run -synthesis [get_runs synth_1]'
+// Tcl Message: current_run -synthesis [get_runs synth_1] 
+// Tcl Message: synth_1 
+// Elapsed time: 76 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // l
+// Tcl Command: 'if {[string equal [get_runs -quiet impl_1] ""]} {;     create_run -name impl_1 -part xc7z020clg400-1 -flow {Vivado Implementation 2020} -strategy "Vivado Implementation Defaults" -report_strategy {No Reports} -constrset constrs_1 -parent_run synth_1; } else {;   set_property strategy "Vivado Implementat...'
+// Tcl Command: 'if {[string equal [get_runs -quiet impl_1] ""]} {;     create_run -name impl_1 -part xc7z020clg400-1 -flow {Vivado Implementation 2020} -strategy "Vivado Implementation Defaults" -report_strategy {No Reports} -constrset constrs_1 -parent_run synth_1; } else {;   set_property strategy "Vivado Implementation Defaults" [get_runs impl_1];   set_property flow "Vivado Implementation 2020" [get_runs impl_1]; }'
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: RUN_MODIFY
+// Tcl Command: 'set obj [get_runs impl_1]'
+// Tcl Command: 'set_property set_report_strategy_name 1 $obj'
+// Tcl Command: 'set_property report_strategy {Vivado Implementation Default Reports} $obj'
+// TclEventType: RUN_MODIFY
+// Tcl Command: 'set_property set_report_strategy_name 0 $obj'
+// Tcl Command: '# Create 'impl_1_init_report_timing_summary_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_init_report_timing_summary_0] "" ] } {;   create_report_config -report_name impl_1_init_report_timing_summary_0 -report_type report_timing_summary:1.0 -steps init_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_init_report_timing_summary_0]'
+// Tcl Command: 'if { $obj != "" } {; set_property -name "is_enabled" -value "0" -objects $obj; set_property -name "options.max_paths" -value "10" -objects $obj; ; }'
+// Tcl Command: '# Create 'impl_1_opt_report_drc_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_opt_report_drc_0] "" ] } {;   create_report_config -report_name impl_1_opt_report_drc_0 -report_type report_drc:1.0 -steps opt_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_opt_report_drc_0]'
+// Tcl Command: 'if { $obj != "" } {; ; }'
+// Tcl Command: '# Create 'impl_1_opt_report_timing_summary_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_opt_report_timing_summary_0] "" ] } {;   create_report_config -report_name impl_1_opt_report_timing_summary_0 -report_type report_timing_summary:1.0 -steps opt_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_opt_report_timing_summary_0]'
+// Tcl Command: 'if { $obj != "" } {; set_property -name "is_enabled" -value "0" -objects $obj; set_property -name "options.max_paths" -value "10" -objects $obj; ; }'
+// Tcl Command: '# Create 'impl_1_power_opt_report_timing_summary_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_power_opt_report_timing_summary_0] "" ] } {;   create_report_config -report_name impl_1_power_opt_report_timing_summary_0 -report_type report_timing_summary:1.0 -steps power_opt_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_power_opt_report_timing_summary_0]'
+// Tcl Command: 'if { $obj != "" } {; set_property -name "is_enabled" -value "0" -objects $obj; set_property -name "options.max_paths" -value "10" -objects $obj; ; }'
+// Tcl Command: '# Create 'impl_1_place_report_io_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_io_0] "" ] } {;   create_report_config -report_name impl_1_place_report_io_0 -report_type report_io:1.0 -steps place_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_io_0]'
+// Tcl Command: 'if { $obj != "" } {; ; }'
+// Tcl Command: '# Create 'impl_1_place_report_utilization_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_utilization_0] "" ] } {;   create_report_config -report_name impl_1_place_report_utilization_0 -report_type report_utilization:1.0 -steps place_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_utilization_0]'
+// Tcl Command: 'if { $obj != "" } {; ; }'
+// Tcl Command: '# Create 'impl_1_place_report_control_sets_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_control_sets_0] "" ] } {;   create_report_config -report_name impl_1_place_report_control_sets_0 -report_type report_control_sets:1.0 -steps place_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_control_sets_0]'
+// Tcl Command: 'if { $obj != "" } {; set_property -name "options.verbose" -value "1" -objects $obj; ; }'
+// Tcl Command: '# Create 'impl_1_place_report_incremental_reuse_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_incremental_reuse_0] "" ] } {;   create_report_config -report_name impl_1_place_report_incremental_reuse_0 -report_type report_incremental_reuse:1.0 -steps place_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_incremental_reuse_0]'
+// Tcl Command: 'if { $obj != "" } {; set_property -name "is_enabled" -value "0" -objects $obj; ; }'
+// Tcl Command: '# Create 'impl_1_place_report_incremental_reuse_1' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_incremental_reuse_1] "" ] } {;   create_report_config -report_name impl_1_place_report_incremental_reuse_1 -report_type report_incremental_reuse:1.0 -steps place_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_incremental_reuse_1]'
+// Tcl Command: 'if { $obj != "" } {; set_property -name "is_enabled" -value "0" -objects $obj; ; }'
+// Tcl Command: '# Create 'impl_1_place_report_timing_summary_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_timing_summary_0] "" ] } {;   create_report_config -report_name impl_1_place_report_timing_summary_0 -report_type report_timing_summary:1.0 -steps place_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_timing_summary_0]'
+// Tcl Command: 'if { $obj != "" } {; set_property -name "is_enabled" -value "0" -objects $obj; set_property -name "options.max_paths" -value "10" -objects $obj; ; }'
+// Tcl Command: '# Create 'impl_1_post_place_power_opt_report_timing_summary_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_post_place_power_opt_report_timing_summary_0] "" ] } {;   create_report_config -report_name impl_1_post_place_power_opt_report_timing_summary_0 -report_type report_timing_summary:1.0 -steps post_place_power_opt_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_post_place_power_opt_report_timing_summary_0]'
+// Tcl Command: 'if { $obj != "" } {; set_property -name "is_enabled" -value "0" -objects $obj; set_property -name "options.max_paths" -value "10" -objects $obj; ; }'
+// Tcl Command: '# Create 'impl_1_phys_opt_report_timing_summary_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_phys_opt_report_timing_summary_0] "" ] } {;   create_report_config -report_name impl_1_phys_opt_report_timing_summary_0 -report_type report_timing_summary:1.0 -steps phys_opt_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_phys_opt_report_timing_summary_0]'
+// Tcl Command: 'if { $obj != "" } {; set_property -name "is_enabled" -value "0" -objects $obj; set_property -name "options.max_paths" -value "10" -objects $obj; ; }'
+// Tcl Command: '# Create 'impl_1_route_report_drc_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_drc_0] "" ] } {;   create_report_config -report_name impl_1_route_report_drc_0 -report_type report_drc:1.0 -steps route_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_drc_0]'
+// Tcl Command: 'if { $obj != "" } {; ; }'
+// Tcl Command: '# Create 'impl_1_route_report_methodology_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_methodology_0] "" ] } {;   create_report_config -report_name impl_1_route_report_methodology_0 -report_type report_methodology:1.0 -steps route_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_methodology_0]'
+// Tcl Command: 'if { $obj != "" } {; ; }'
+// Tcl Command: '# Create 'impl_1_route_report_power_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_power_0] "" ] } {;   create_report_config -report_name impl_1_route_report_power_0 -report_type report_power:1.0 -steps route_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_power_0]'
+// Tcl Command: 'if { $obj != "" } {; ; }'
+// Tcl Command: '# Create 'impl_1_route_report_route_status_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_route_status_0] "" ] } {;   create_report_config -report_name impl_1_route_report_route_status_0 -report_type report_route_status:1.0 -steps route_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_route_status_0]'
+// Tcl Command: 'if { $obj != "" } {; ; }'
+// Tcl Command: '# Create 'impl_1_route_report_timing_summary_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_timing_summary_0] "" ] } {;   create_report_config -report_name impl_1_route_report_timing_summary_0 -report_type report_timing_summary:1.0 -steps route_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_timing_summary_0]'
+// Tcl Command: 'if { $obj != "" } {; set_property -name "options.max_paths" -value "10" -objects $obj; ; }'
+// Tcl Command: '# Create 'impl_1_route_report_incremental_reuse_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_incremental_reuse_0] "" ] } {;   create_report_config -report_name impl_1_route_report_incremental_reuse_0 -report_type report_incremental_reuse:1.0 -steps route_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_incremental_reuse_0]'
+// Tcl Command: 'if { $obj != "" } {; ; }'
+// Tcl Command: '# Create 'impl_1_route_report_clock_utilization_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_clock_utilization_0] "" ] } {;   create_report_config -report_name impl_1_route_report_clock_utilization_0 -report_type report_clock_utilization:1.0 -steps route_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_clock_utilization_0]'
+// Tcl Command: 'if { $obj != "" } {; ; }'
+// Tcl Command: '# Create 'impl_1_route_report_bus_skew_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_bus_skew_0] "" ] } {;   create_report_config -report_name impl_1_route_report_bus_skew_0 -report_type report_bus_skew:1.1 -steps route_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_bus_skew_0]'
+// Tcl Command: 'if { $obj != "" } {; set_property -name "options.warn_on_violation" -value "1" -objects $obj; ; }'
+// Tcl Command: '# Create 'impl_1_post_route_phys_opt_report_timing_summary_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_post_route_phys_opt_report_timing_summary_0] "" ] } {;   create_report_config -report_name impl_1_post_route_phys_opt_report_timing_summary_0 -report_type report_timing_summary:1.0 -steps post_route_phys_opt_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_post_route_phys_opt_report_timing_summary_0]'
+// Tcl Command: 'if { $obj != "" } {; set_property -name "options.max_paths" -value "10" -objects $obj; set_property -name "options.warn_on_violation" -value "1" -objects $obj; ; }'
+// Tcl Command: '# Create 'impl_1_post_route_phys_opt_report_bus_skew_0' report (if not found)'
+// Tcl Command: 'if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_post_route_phys_opt_report_bus_skew_0] "" ] } {;   create_report_config -report_name impl_1_post_route_phys_opt_report_bus_skew_0 -report_type report_bus_skew:1.1 -steps post_route_phys_opt_design -runs impl_1; }'
+// Tcl Command: 'set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_post_route_phys_opt_report_bus_skew_0]'
+// Tcl Command: 'if { $obj != "" } {; set_property -name "options.warn_on_violation" -value "1" -objects $obj; ; }'
+// Tcl Command: 'set obj [get_runs impl_1]'
+// Tcl Command: 'set_property -name "auto_incremental_checkpoint.directory" -value "/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/impl_1" -objects $obj'
+// TclEventType: RUN_OPTIONS_MODIFIED
+// Tcl Command: 'set_property -name "strategy" -value "Vivado Implementation Defaults" -objects $obj'
+// Tcl Command: 'set_property -name "steps.write_bitstream.args.readback_file" -value "0" -objects $obj'
+// Tcl Command: 'set_property -name "steps.write_bitstream.args.verbose" -value "0" -objects $obj'
+// Tcl Command: ''
+// Tcl Command: '# set the current impl run'
+// Tcl Command: 'current_run -implementation [get_runs impl_1]'
+// Tcl Message: if {[string equal [get_runs -quiet impl_1] ""]} {     create_run -name impl_1 -part xc7z020clg400-1 -flow {Vivado Implementation 2020} -strategy "Vivado Implementation Defaults" -report_strategy {No Reports} -constrset constrs_1 -parent_run synth_1 } else {   set_property strategy "Vivado Implementation Defaults" [get_runs impl_1]   set_property flow "Vivado Implementation 2020" [get_runs impl_1] } 
+// Tcl Message: set obj [get_runs impl_1] 
+// Tcl Message: impl_1 
+// Tcl Message: set_property set_report_strategy_name 1 $obj 
+// Tcl Message: set_property report_strategy {Vivado Implementation Default Reports} $obj 
+// Tcl Message: set_property set_report_strategy_name 0 $obj 
+// Tcl Message: # Create 'impl_1_init_report_timing_summary_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_init_report_timing_summary_0] "" ] } {   create_report_config -report_name impl_1_init_report_timing_summary_0 -report_type report_timing_summary:1.0 -steps init_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_init_report_timing_summary_0] 
+// Tcl Message: impl_1_init_report_timing_summary_0 
+// Tcl Message: if { $obj != "" } { set_property -name "is_enabled" -value "0" -objects $obj set_property -name "options.max_paths" -value "10" -objects $obj  } 
+// Tcl Message: # Create 'impl_1_opt_report_drc_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_opt_report_drc_0] "" ] } {   create_report_config -report_name impl_1_opt_report_drc_0 -report_type report_drc:1.0 -steps opt_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_opt_report_drc_0] 
+// Tcl Message: impl_1_opt_report_drc_0 
+// Tcl Message: if { $obj != "" } {  } 
+// Tcl Message: # Create 'impl_1_opt_report_timing_summary_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_opt_report_timing_summary_0] "" ] } {   create_report_config -report_name impl_1_opt_report_timing_summary_0 -report_type report_timing_summary:1.0 -steps opt_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_opt_report_timing_summary_0] 
+// Tcl Message: impl_1_opt_report_timing_summary_0 
+// Tcl Message: if { $obj != "" } { set_property -name "is_enabled" -value "0" -objects $obj set_property -name "options.max_paths" -value "10" -objects $obj  } 
+// Tcl Message: # Create 'impl_1_power_opt_report_timing_summary_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_power_opt_report_timing_summary_0] "" ] } {   create_report_config -report_name impl_1_power_opt_report_timing_summary_0 -report_type report_timing_summary:1.0 -steps power_opt_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_power_opt_report_timing_summary_0] 
+// Tcl Message: impl_1_power_opt_report_timing_summary_0 
+// Tcl Message: if { $obj != "" } { set_property -name "is_enabled" -value "0" -objects $obj set_property -name "options.max_paths" -value "10" -objects $obj  } 
+// Tcl Message: # Create 'impl_1_place_report_io_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_io_0] "" ] } {   create_report_config -report_name impl_1_place_report_io_0 -report_type report_io:1.0 -steps place_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_io_0] 
+// Tcl Message: impl_1_place_report_io_0 
+// Tcl Message: if { $obj != "" } {  } 
+// Tcl Message: # Create 'impl_1_place_report_utilization_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_utilization_0] "" ] } {   create_report_config -report_name impl_1_place_report_utilization_0 -report_type report_utilization:1.0 -steps place_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_utilization_0] 
+// Tcl Message: impl_1_place_report_utilization_0 
+// Tcl Message: if { $obj != "" } {  } 
+// Tcl Message: # Create 'impl_1_place_report_control_sets_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_control_sets_0] "" ] } {   create_report_config -report_name impl_1_place_report_control_sets_0 -report_type report_control_sets:1.0 -steps place_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_control_sets_0] 
+// Tcl Message: impl_1_place_report_control_sets_0 
+// Tcl Message: if { $obj != "" } { set_property -name "options.verbose" -value "1" -objects $obj  } 
+// Tcl Message: # Create 'impl_1_place_report_incremental_reuse_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_incremental_reuse_0] "" ] } {   create_report_config -report_name impl_1_place_report_incremental_reuse_0 -report_type report_incremental_reuse:1.0 -steps place_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_incremental_reuse_0] 
+// Tcl Message: impl_1_place_report_incremental_reuse_0 
+// Tcl Message: if { $obj != "" } { set_property -name "is_enabled" -value "0" -objects $obj  } 
+// Tcl Message: # Create 'impl_1_place_report_incremental_reuse_1' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_incremental_reuse_1] "" ] } {   create_report_config -report_name impl_1_place_report_incremental_reuse_1 -report_type report_incremental_reuse:1.0 -steps place_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_incremental_reuse_1] 
+// Tcl Message: impl_1_place_report_incremental_reuse_1 
+// Tcl Message: if { $obj != "" } { set_property -name "is_enabled" -value "0" -objects $obj  } 
+// Tcl Message: # Create 'impl_1_place_report_timing_summary_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_timing_summary_0] "" ] } {   create_report_config -report_name impl_1_place_report_timing_summary_0 -report_type report_timing_summary:1.0 -steps place_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_place_report_timing_summary_0] 
+// Tcl Message: impl_1_place_report_timing_summary_0 
+// Tcl Message: if { $obj != "" } { set_property -name "is_enabled" -value "0" -objects $obj set_property -name "options.max_paths" -value "10" -objects $obj  } 
+// Tcl Message: # Create 'impl_1_post_place_power_opt_report_timing_summary_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_post_place_power_opt_report_timing_summary_0] "" ] } {   create_report_config -report_name impl_1_post_place_power_opt_report_timing_summary_0 -report_type report_timing_summary:1.0 -steps post_place_power_opt_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_post_place_power_opt_report_timing_summary_0] 
+// Tcl Message: impl_1_post_place_power_opt_report_timing_summary_0 
+// Tcl Message: if { $obj != "" } { set_property -name "is_enabled" -value "0" -objects $obj set_property -name "options.max_paths" -value "10" -objects $obj  } 
+// Tcl Message: # Create 'impl_1_phys_opt_report_timing_summary_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_phys_opt_report_timing_summary_0] "" ] } {   create_report_config -report_name impl_1_phys_opt_report_timing_summary_0 -report_type report_timing_summary:1.0 -steps phys_opt_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_phys_opt_report_timing_summary_0] 
+// Tcl Message: impl_1_phys_opt_report_timing_summary_0 
+// Tcl Message: if { $obj != "" } { set_property -name "is_enabled" -value "0" -objects $obj set_property -name "options.max_paths" -value "10" -objects $obj  } 
+// Tcl Message: # Create 'impl_1_route_report_drc_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_drc_0] "" ] } {   create_report_config -report_name impl_1_route_report_drc_0 -report_type report_drc:1.0 -steps route_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_drc_0] 
+// Tcl Message: impl_1_route_report_drc_0 
+// Tcl Message: if { $obj != "" } {  } 
+// Tcl Message: # Create 'impl_1_route_report_methodology_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_methodology_0] "" ] } {   create_report_config -report_name impl_1_route_report_methodology_0 -report_type report_methodology:1.0 -steps route_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_methodology_0] 
+// Tcl Message: impl_1_route_report_methodology_0 
+// Tcl Message: if { $obj != "" } {  } 
+// Tcl Message: # Create 'impl_1_route_report_power_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_power_0] "" ] } {   create_report_config -report_name impl_1_route_report_power_0 -report_type report_power:1.0 -steps route_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_power_0] 
+// Tcl Message: impl_1_route_report_power_0 
+// Tcl Message: if { $obj != "" } {  } 
+// Tcl Message: # Create 'impl_1_route_report_route_status_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_route_status_0] "" ] } {   create_report_config -report_name impl_1_route_report_route_status_0 -report_type report_route_status:1.0 -steps route_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_route_status_0] 
+// Tcl Message: impl_1_route_report_route_status_0 
+// Tcl Message: if { $obj != "" } {  } 
+// Tcl Message: # Create 'impl_1_route_report_timing_summary_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_timing_summary_0] "" ] } {   create_report_config -report_name impl_1_route_report_timing_summary_0 -report_type report_timing_summary:1.0 -steps route_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_timing_summary_0] 
+// Tcl Message: impl_1_route_report_timing_summary_0 
+// Tcl Message: if { $obj != "" } { set_property -name "options.max_paths" -value "10" -objects $obj  } 
+// Tcl Message: # Create 'impl_1_route_report_incremental_reuse_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_incremental_reuse_0] "" ] } {   create_report_config -report_name impl_1_route_report_incremental_reuse_0 -report_type report_incremental_reuse:1.0 -steps route_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_incremental_reuse_0] 
+// Tcl Message: impl_1_route_report_incremental_reuse_0 
+// Tcl Message: if { $obj != "" } {  } 
+// Tcl Message: # Create 'impl_1_route_report_clock_utilization_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_clock_utilization_0] "" ] } {   create_report_config -report_name impl_1_route_report_clock_utilization_0 -report_type report_clock_utilization:1.0 -steps route_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_clock_utilization_0] 
+// Tcl Message: impl_1_route_report_clock_utilization_0 
+// Tcl Message: if { $obj != "" } {  } 
+// Tcl Message: # Create 'impl_1_route_report_bus_skew_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_bus_skew_0] "" ] } {   create_report_config -report_name impl_1_route_report_bus_skew_0 -report_type report_bus_skew:1.1 -steps route_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_bus_skew_0] 
+// Tcl Message: impl_1_route_report_bus_skew_0 
+// Tcl Message: if { $obj != "" } { set_property -name "options.warn_on_violation" -value "1" -objects $obj  } 
+// Tcl Message: # Create 'impl_1_post_route_phys_opt_report_timing_summary_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_post_route_phys_opt_report_timing_summary_0] "" ] } {   create_report_config -report_name impl_1_post_route_phys_opt_report_timing_summary_0 -report_type report_timing_summary:1.0 -steps post_route_phys_opt_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_post_route_phys_opt_report_timing_summary_0] 
+// Tcl Message: impl_1_post_route_phys_opt_report_timing_summary_0 
+// Tcl Message: if { $obj != "" } { set_property -name "options.max_paths" -value "10" -objects $obj set_property -name "options.warn_on_violation" -value "1" -objects $obj  } 
+// Tcl Message: # Create 'impl_1_post_route_phys_opt_report_bus_skew_0' report (if not found) 
+// Tcl Message: if { [ string equal [get_report_configs -of_objects [get_runs impl_1] impl_1_post_route_phys_opt_report_bus_skew_0] "" ] } {   create_report_config -report_name impl_1_post_route_phys_opt_report_bus_skew_0 -report_type report_bus_skew:1.1 -steps post_route_phys_opt_design -runs impl_1 } 
+// Tcl Message: set obj [get_report_configs -of_objects [get_runs impl_1] impl_1_post_route_phys_opt_report_bus_skew_0] 
+// Tcl Message: impl_1_post_route_phys_opt_report_bus_skew_0 
+// Tcl Message: if { $obj != "" } { set_property -name "options.warn_on_violation" -value "1" -objects $obj  } 
+// Tcl Message: set obj [get_runs impl_1] 
+// Tcl Message: impl_1 
+// Tcl Message: set_property -name "auto_incremental_checkpoint.directory" -value "/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/impl_1" -objects $obj 
+// Tcl Message: set_property -name "strategy" -value "Vivado Implementation Defaults" -objects $obj 
+// Tcl Message: set_property -name "steps.write_bitstream.args.readback_file" -value "0" -objects $obj 
+// Tcl Message: set_property -name "steps.write_bitstream.args.verbose" -value "0" -objects $obj 
+// Tcl Message: # set the current impl run 
+// Tcl Message: current_run -implementation [get_runs impl_1] 
+// Tcl Message: impl_1 
+// Elapsed time: 18 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // l
+// Tcl Command: 'catch {;  if { $idrFlowPropertiesConstraints != {} } {;    set_param runs.disableIDRFlowPropertyConstraints $idrFlowPropertiesConstraints;  }; }; ; puts "INFO: Project created:${_xil_proj_name_}"; # Create 'drc_1' gadget (if not found); if {[string equal [get_dashboard_gadgets  [ list "drc_1" ] ] ""]} {; crea...'
+// Tcl Command: 'catch {;  if { $idrFlowPropertiesConstraints != {} } {;    set_param runs.disableIDRFlowPropertyConstraints $idrFlowPropertiesConstraints;  }; }'
+// Tcl Command: ''
+// Tcl Command: 'puts "INFO: Project created:${_xil_proj_name_}"'
+// Tcl Message: catch {  if { $idrFlowPropertiesConstraints != {} } {    set_param runs.disableIDRFlowPropertyConstraints $idrFlowPropertiesConstraints  } } 
+// Tcl Message: 1 
+// Tcl Message: puts "INFO: Project created:${_xil_proj_name_}" 
+// Tcl Message: can't read "_xil_proj_name_": no such variable 
+// Elapsed time: 78 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "set _xil_proj_name_ \"vvd_labi\"", true); // l
+// Tcl Command: 'set _xil_proj_name_ "vvd_labi"'
+// Tcl Command: 'set _xil_proj_name_ "vvd_labi"'
+// Tcl Message: set _xil_proj_name_ "vvd_labi" 
+// Tcl Message: vvd_labi 
+// Elapsed time: 15 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // l
+// Tcl Command: 'puts "INFO: Project created:${_xil_proj_name_}"; # Create 'drc_1' gadget (if not found); if {[string equal [get_dashboard_gadgets  [ list "drc_1" ] ] ""]} {; create_dashboard_gadget -name {drc_1} -type drc; }; set obj [get_dashboard_gadgets [ list "drc_1" ] ]; set_property -name "reports" -value "impl_1#im...'
+// Tcl Command: 'puts "INFO: Project created:${_xil_proj_name_}"'
+// Tcl Command: '# Create 'drc_1' gadget (if not found)'
+// Tcl Command: 'if {[string equal [get_dashboard_gadgets  [ list "drc_1" ] ] ""]} {; create_dashboard_gadget -name {drc_1} -type drc; }'
+// Tcl Command: 'set obj [get_dashboard_gadgets [ list "drc_1" ] ]'
+// Tcl Command: 'set_property -name "reports" -value "impl_1#impl_1_route_report_drc_0" -objects $obj'
+// Tcl Command: ''
+// Tcl Command: '# Create 'methodology_1' gadget (if not found)'
+// Tcl Command: 'if {[string equal [get_dashboard_gadgets  [ list "methodology_1" ] ] ""]} {; create_dashboard_gadget -name {methodology_1} -type methodology; }'
+// Tcl Command: 'set obj [get_dashboard_gadgets [ list "methodology_1" ] ]'
+// Tcl Command: 'set_property -name "reports" -value "impl_1#impl_1_route_report_methodology_0" -objects $obj'
+// Tcl Command: ''
+// Tcl Command: '# Create 'power_1' gadget (if not found)'
+// Tcl Command: 'if {[string equal [get_dashboard_gadgets  [ list "power_1" ] ] ""]} {; create_dashboard_gadget -name {power_1} -type power; }'
+// Tcl Command: 'set obj [get_dashboard_gadgets [ list "power_1" ] ]'
+// Tcl Command: 'set_property -name "reports" -value "impl_1#impl_1_route_report_power_0" -objects $obj'
+// Tcl Command: ''
+// Tcl Command: '# Create 'timing_1' gadget (if not found)'
+// Tcl Command: 'if {[string equal [get_dashboard_gadgets  [ list "timing_1" ] ] ""]} {; create_dashboard_gadget -name {timing_1} -type timing; }'
+// Tcl Command: 'set obj [get_dashboard_gadgets [ list "timing_1" ] ]'
+// Tcl Command: 'set_property -name "reports" -value "impl_1#impl_1_route_report_timing_summary_0" -objects $obj'
+// Tcl Command: ''
+// Tcl Command: '# Create 'utilization_1' gadget (if not found)'
+// Tcl Command: 'if {[string equal [get_dashboard_gadgets  [ list "utilization_1" ] ] ""]} {; create_dashboard_gadget -name {utilization_1} -type utilization; }'
+// Tcl Command: 'set obj [get_dashboard_gadgets [ list "utilization_1" ] ]'
+// Tcl Command: 'set_property -name "reports" -value "synth_1#synth_1_synth_report_utilization_0" -objects $obj'
+// Tcl Command: 'set_property -name "run.step" -value "synth_design" -objects $obj'
+// Tcl Command: 'set_property -name "run.type" -value "synthesis" -objects $obj'
+// Tcl Command: ''
+// Tcl Command: '# Create 'utilization_2' gadget (if not found)'
+// Tcl Command: 'if {[string equal [get_dashboard_gadgets  [ list "utilization_2" ] ] ""]} {; create_dashboard_gadget -name {utilization_2} -type utilization; }'
+// Tcl Command: 'set obj [get_dashboard_gadgets [ list "utilization_2" ] ]'
+// Tcl Command: 'set_property -name "reports" -value "impl_1#impl_1_place_report_utilization_0" -objects $obj'
+// Tcl Command: ''
+// Tcl Command: 'move_dashboard_gadget -name {utilization_1} -row 0 -col 0'
+// TclEventType: PROJECT_DASHBOARD_CHANGE
+// Tcl Command: 'move_dashboard_gadget -name {power_1} -row 1 -col 0'
+// TclEventType: PROJECT_DASHBOARD_CHANGE
+// Tcl Command: 'move_dashboard_gadget -name {drc_1} -row 2 -col 0'
+// TclEventType: PROJECT_DASHBOARD_CHANGE
+// Tcl Command: 'move_dashboard_gadget -name {timing_1} -row 0 -col 1'
+// TclEventType: PROJECT_DASHBOARD_CHANGE
+// Tcl Command: 'move_dashboard_gadget -name {utilization_2} -row 1 -col 1'
+// TclEventType: PROJECT_DASHBOARD_CHANGE
+// Tcl Command: 'move_dashboard_gadget -name {methodology_1} -row 2 -col 1'
+// TclEventType: PROJECT_DASHBOARD_CHANGE
+// Tcl Message: puts "INFO: Project created:${_xil_proj_name_}" 
+// Tcl Message: INFO: Project created:vvd_labi 
+// Tcl Message: # Create 'drc_1' gadget (if not found) 
+// Tcl Message: if {[string equal [get_dashboard_gadgets  [ list "drc_1" ] ] ""]} { create_dashboard_gadget -name {drc_1} -type drc } 
+// Tcl Message: set obj [get_dashboard_gadgets [ list "drc_1" ] ] 
+// Tcl Message: drc_1 
+// Tcl Message: set_property -name "reports" -value "impl_1#impl_1_route_report_drc_0" -objects $obj 
+// Tcl Message: # Create 'methodology_1' gadget (if not found) 
+// Tcl Message: if {[string equal [get_dashboard_gadgets  [ list "methodology_1" ] ] ""]} { create_dashboard_gadget -name {methodology_1} -type methodology } 
+// Tcl Message: set obj [get_dashboard_gadgets [ list "methodology_1" ] ] 
+// Tcl Message: methodology_1 
+// Tcl Message: set_property -name "reports" -value "impl_1#impl_1_route_report_methodology_0" -objects $obj 
+// Tcl Message: # Create 'power_1' gadget (if not found) 
+// Tcl Message: if {[string equal [get_dashboard_gadgets  [ list "power_1" ] ] ""]} { create_dashboard_gadget -name {power_1} -type power } 
+// Tcl Message: set obj [get_dashboard_gadgets [ list "power_1" ] ] 
+// Tcl Message: power_1 
+// Tcl Message: set_property -name "reports" -value "impl_1#impl_1_route_report_power_0" -objects $obj 
+// Tcl Message: # Create 'timing_1' gadget (if not found) 
+// Tcl Message: if {[string equal [get_dashboard_gadgets  [ list "timing_1" ] ] ""]} { create_dashboard_gadget -name {timing_1} -type timing } 
+// Tcl Message: set obj [get_dashboard_gadgets [ list "timing_1" ] ] 
+// Tcl Message: timing_1 
+// Tcl Message: set_property -name "reports" -value "impl_1#impl_1_route_report_timing_summary_0" -objects $obj 
+// Tcl Message: # Create 'utilization_1' gadget (if not found) 
+// Tcl Message: if {[string equal [get_dashboard_gadgets  [ list "utilization_1" ] ] ""]} { create_dashboard_gadget -name {utilization_1} -type utilization } 
+// Tcl Message: set obj [get_dashboard_gadgets [ list "utilization_1" ] ] 
+// Tcl Message: utilization_1 
+// Tcl Message: set_property -name "reports" -value "synth_1#synth_1_synth_report_utilization_0" -objects $obj 
+// Tcl Message: set_property -name "run.step" -value "synth_design" -objects $obj 
+// Tcl Message: set_property -name "run.type" -value "synthesis" -objects $obj 
+// Tcl Message: # Create 'utilization_2' gadget (if not found) 
+// Tcl Message: if {[string equal [get_dashboard_gadgets  [ list "utilization_2" ] ] ""]} { create_dashboard_gadget -name {utilization_2} -type utilization } 
+// Tcl Message: set obj [get_dashboard_gadgets [ list "utilization_2" ] ] 
+// Tcl Message: utilization_2 
+// Tcl Message: set_property -name "reports" -value "impl_1#impl_1_place_report_utilization_0" -objects $obj 
+// Tcl Message: move_dashboard_gadget -name {utilization_1} -row 0 -col 0 
+// Tcl Message: move_dashboard_gadget -name {power_1} -row 1 -col 0 
+// Tcl Message: move_dashboard_gadget -name {drc_1} -row 2 -col 0 
+// Tcl Message: move_dashboard_gadget -name {timing_1} -row 0 -col 1 
+// Tcl Message: move_dashboard_gadget -name {utilization_2} -row 1 -col 1 
+// Tcl Message: move_dashboard_gadget -name {methodology_1} -row 2 -col 1 
+// Elapsed time: 14 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // l
+// Tcl Command: 'update_compile_order -fileset sources_1; launch_runs impl_1 -to_step write_bitstream -job 3; wait_on_run impl_1; ; # Open implemented design before executing below commands.; open_run impl_1; ; # output timing summary; report_timing_summary -file timingreport.txt'
+// Tcl Command: 'update_compile_order -fileset sources_1'
+// Tcl Command: 'launch_runs impl_1 -to_step write_bitstream -job 3'
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: INFO: [Vivado 12-3458] The update_compile_order command is not intended for use in the GUI, where compile order updates occur based on project changes and the hierarchy update settings. No update performed. 
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -job 3 
+// Tcl Message: ERROR: [Vivado 12-1087] Run 'impl_1' needs to be reset before launching. The run can be reset using the Tcl command 'reset_run impl_1'. 
+// Tcl Command: 'rdi::info_commands {re*}'
+// Tcl Command: 'rdi::info_commands {rese*}'
+// Tcl Command: 'rdi::info_commands {reset*}'
+// Tcl Command: 'rdi::info_commands {reset_*}'
+// Tcl Command: 'rdi::info_commands {reset_run*}'
+// Elapsed time: 15 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "reset_run impl_1", true); // l
+// Tcl Command: 'reset_run impl_1'
+// Tcl Command: 'reset_run impl_1'
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // l
+// Tcl Command: 'update_compile_order -fileset sources_1; launch_runs impl_1 -to_step write_bitstream -job 3; wait_on_run impl_1; ; # Open implemented design before executing below commands.; open_run impl_1; ; # output timing summary; report_timing_summary -file timingreport.txt'
+// Tcl Command: 'update_compile_order -fileset sources_1'
+// Tcl Command: 'launch_runs impl_1 -to_step write_bitstream -job 3'
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Command: 'wait_on_run impl_1'
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: INFO: [Vivado 12-3458] The update_compile_order command is not intended for use in the GUI, where compile order updates occur based on project changes and the hierarchy update settings. No update performed. 
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -job 3 
+// Tcl Message: [Thu Nov 16 05:35:10 2023] Launched impl_1... Run output will be captured here: /home/ubuntu/labi/vvd_labi/vvd_labi.runs/impl_1/runme.log 
+// Tcl Message: wait_on_run impl_1 
+// Tcl Message: [Thu Nov 16 05:35:10 2023] Waiting for impl_1 to finish... 
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Thu Nov 16 05:35:15 2023] Waiting for impl_1 to finish... 
+// Tcl Message: [Thu Nov 16 05:35:20 2023] Waiting for impl_1 to finish... 
+// Tcl Message: [Thu Nov 16 05:35:25 2023] Waiting for impl_1 to finish... 
+// TclEventType: RUN_STEP_COMPLETED
+// Tcl Message: [Thu Nov 16 05:35:35 2023] Waiting for impl_1 to finish... 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,152 MB. GUI used memory: 98 MB. Current time: 11/16/23, 5:35:40 AM EST
+// TclEventType: RUN_STEP_COMPLETED
+// Tcl Message: [Thu Nov 16 05:35:45 2023] Waiting for impl_1 to finish... 
+// Tcl Message: [Thu Nov 16 05:35:55 2023] Waiting for impl_1 to finish... 
+// TclEventType: RUN_STEP_COMPLETED
+// Tcl Message: [Thu Nov 16 05:36:05 2023] Waiting for impl_1 to finish... 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,152 MB. GUI used memory: 98 MB. Current time: 11/16/23, 5:36:10 AM EST
+// Tcl Message: [Thu Nov 16 05:36:25 2023] Waiting for impl_1 to finish... 
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,152 MB. GUI used memory: 97 MB. Current time: 11/16/23, 5:36:40 AM EST
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Command: ''
+// Tcl Command: '# Open implemented design before executing below commands.'
+// Tcl Command: 'open_run impl_1'
+// Tcl Message: [Thu Nov 16 05:36:40 2023] impl_1 finished 
+// Tcl Message: wait_on_runs: Time (s): cpu = 00:00:06 ; elapsed = 00:01:30 . Memory (MB): peak = 9075.426 ; gain = 0.000 ; free physical = 2406 ; free virtual = 5821 
+// Tcl Message: impl_1 
+// Tcl Message: # Open implemented design before executing below commands. 
+// Tcl Message: open_run impl_1 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,532 MB. GUI used memory: 98 MB. Current time: 11/16/23, 5:36:49 AM EST
+// [Engine Memory]: 2,532 MB (+250085kb) [00:07:41]
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: /tools/Xilinx/Vivado/2022.1/data/parts/xilinx/zynq/devint/zynq/xc7z020/xc7z020.xgd; ZipEntry: xc7z020_detail.xgd elapsed time: 0.7s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 0.9s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 1.4s
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// WARNING: HEventQueue.dispatchEvent() is taking  3281 ms.
+// Tcl Message: INFO: [Device 21-403] Loading part xc7z020clg400-1 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 9075.426 ; gain = 0.000 ; free physical = 3752 ; free virtual = 7167 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 360 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2022.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF Files: Time (s): cpu = 00:00:00.32 ; elapsed = 00:00:00.3 . Memory (MB): peak = 9077.168 ; gain = 1.742 ; free physical = 3652 ; free virtual = 7067 
+// Tcl Message: Restored from archive | CPU: 0.320000 secs | Memory: 5.064713 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00.32 ; elapsed = 00:00:00.3 . Memory (MB): peak = 9077.168 ; gain = 1.742 ; free physical = 3652 ; free virtual = 7067 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9421.145 ; gain = 0.000 ; free physical = 3343 ; free virtual = 6758 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 4 instances were transformed.   RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances  
+// Tcl Command: ''
+// Tcl Command: '# output timing summary'
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 9564.961 ; gain = 489.535 ; free physical = 3225 ; free virtual = 6642 
+// [GUI Memory]: 158 MB (+5148kb) [00:07:46]
+// [GUI Memory]: 167 MB (+1650kb) [00:07:46]
+// Tcl Command: 'report_timing_summary -file timingreport.txt'
+// Tcl Message: impl_1 
+// Tcl Message: # output timing summary 
+// Tcl Message: report_timing_summary -file timingreport.txt 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max. INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs 
+// TclEventType: TIMING_RESULTS_STALE
+// Tcl Message: report_timing_summary: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 9675.770 ; gain = 110.809 ; free physical = 3123 ; free virtual = 6540 
+// [Engine Memory]: 2,790 MB (+137677kb) [00:07:53]
+// Elapsed time: 113 seconds
+dismissDialog("Tcl Command Line"); // bA
+// RouteApi: Init Delay Mediator Swing Worker Finished
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ag
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL
+// [GUI Memory]: 190 MB (+14540kb) [00:08:00]
+// Elapsed time: 13 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aL
+// Elapsed time: 11 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 177, 130); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 471, 126); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 155, 124); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 280, 127); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 145, 47); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1508, 50); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1315, 54); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1315, 54, false, false, false, false, true); // dT - Double Click
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1246, 52); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 140, 54); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 556, 43); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 139, 50); // dT
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // dT
+// Elapsed time: 295 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 539, 55); // dT
+// Elapsed time: 20 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 664, 52); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 784, 56); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 740, 48); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1310, 50); // dT
+// Elapsed time: 42 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 809, 51); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 943, 61); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 790, 53); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1037, 103); // dT
+// Elapsed time: 55 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m
+// Elapsed time: 83 seconds
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceOtoP.ProjectSummaryUtilizationGadget_POST_SYNTHESIS, "Post-Synthesis", 0); // b
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceOtoP.ProjectSummaryUtilizationGadget_POST_IMPLEMENTATION, "Post-Implementation", 1); // b
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceOtoP.ProjectSummaryUtilizationGadget_POST_SYNTHESIS, "Post-Synthesis", 0); // b
+// Elapsed time: 13 seconds
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceOtoP.ProjectSummaryUtilizationGadget_POST_IMPLEMENTATION, "Post-Implementation", 1); // b
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceOtoP.ProjectSummaryUtilizationGadget_POST_SYNTHESIS, "Post-Synthesis", 0); // b
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceOtoP.ProjectSummaryUtilizationGadget_POST_IMPLEMENTATION, "Post-Implementation", 1); // b
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceOtoP.ProjectSummaryUtilizationGadget_POST_SYNTHESIS, "Post-Synthesis", 0); // b
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // n
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/ubuntu/labi/vvd_labi/vvd_labi.srcs/sources_1/bd/design_1/design_1.bd} 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Block Design"); // bA
+// Elapsed time: 48 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 2); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, caravel (caravel.v)]", 3, true); // D - Node
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 4, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 4, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ar
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top design_1_wrapper [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,811 MB. GUI used memory: 128 MB. Current time: 11/16/23, 5:48:28 AM EST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp to /home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+// Tcl Message: ERROR: [Common 17-1294] Unable to create directory [/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1]. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-1294] Unable to create directory [/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1].  
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: RUN_MODIFY
+dismissDialog("Reset Run"); // A
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp to /home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+// Tcl Message: ERROR: [Common 17-1294] Unable to create directory [/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1]. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-1294] Unable to create directory [/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1].  
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+// 'k' command handler elapsed time: 17 seconds
+dismissDialog("Launch Run Critical Messages"); // bu
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp to /home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+// Tcl Message: ERROR: [Common 17-1294] Unable to create directory [/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1]. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-1294] Unable to create directory [/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1].  
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: RUN_MODIFY
+dismissDialog("Reset Run"); // A
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp to /home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+// Tcl Message: ERROR: [Common 17-1294] Unable to create directory [/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1]. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-1294] Unable to create directory [/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1].  
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Launch Run Critical Messages"); // bu
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 171, 132); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1140, 126); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 327, 85); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 485, 83); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 497, 83); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 672, 84); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 699, 84); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 899, 84); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 297, 117); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 382, 117); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1090, 110); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1190, 114); // dT
+// Tcl Command: 'rdi::info_commands {re*}'
+// Tcl Command: 'rdi::info_commands {reset*}'
+// Tcl Command: 'rdi::info_commands {resetr*}'
+// Tcl Command: 'rdi::info_commands {resetru*}'
+// Tcl Command: 'rdi::info_commands {reset*}'
+// Tcl Command: 'rdi::info_commands {reset_*}'
+// Tcl Command: 'rdi::info_commands {reset_ru*}'
+// Tcl Command: 'rdi::info_commands {reset_run*}'
+// Elapsed time: 63 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "reset_run synth_1", true); // l
+// Tcl Command: 'reset_run synth_1'
+// Tcl Command: 'reset_run synth_1'
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp to /home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+// Tcl Message: ERROR: [Common 17-1294] Unable to create directory [/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1]. 
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 469, 181); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 752, 198); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 670, 188); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 436, 179); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 665, 173); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 674, 94); // dT
+// Elapsed time: 31 seconds
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13); // n
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13); // n
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13); // n
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13); // n
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13, true, false, false, false, true, false); // n - Popup Trigger - Node
+selectMenuItem(PAResourceEtoH.FlowNavigatorTreePanel_RESET_SYNTHESIS_RUN, "Reset Synthesis Run"); // ar
+selectButton(RDIResource.BaseDialog_OK, "Reset"); // a
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp to /home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+// Tcl Message: ERROR: [Common 17-1294] Unable to create directory [/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1]. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-1294] Unable to create directory [/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/vvd_caravel_fpga/vvd_caravel_fpga.srcs/utils_1/imports/synth_1].  
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.4s
+dismissDialog("Resetting Runs"); // bA
+// Elapsed time: 10 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 167, 173); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 611, 178); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 666, 171); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1094, 179); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1202, 172); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1504, 172); // dT
+// Elapsed time: 50 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // l
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {set_property} {"/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/} {vvd_caravel_fpga}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {set_property} {"/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/} {vvd_caravel_fpga}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {set_property} {"/home/tonyho/workspace_willy/caravel_fpga/project/vitis_hls_project/hls_read_romcode/D:/Caravel_Soc/} {vvd_caravel_fpga}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {set_property} {"/vvd_caravel_fpga.srcs/utils_1/imports/} {synth_1}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {set_property} {"/vvd_caravel_fpga.srcs/utils_1/imports/} {synth_1" -objects $obj}'
+// Tcl Command: 'set obj [get_runs synth_1]; set_property -name "auto_incremental_checkpoint.directory" -value "/vvd_caravel_fpga.srcs/utils_1/imports/synth_1" -objects $obj; set_property -name "strategy" -value "Vivado Synthesis Defaults" -objects $obj'
+// Tcl Command: 'set obj [get_runs synth_1]'
+// Tcl Command: 'set_property -name "auto_incremental_checkpoint.directory" -value "/vvd_caravel_fpga.srcs/utils_1/imports/synth_1" -objects $obj'
+// TclEventType: RUN_OPTIONS_MODIFIED
+// Tcl Command: 'set_property -name "strategy" -value "Vivado Synthesis Defaults" -objects $obj'
+// Tcl Message: set obj [get_runs synth_1] 
+// Tcl Message: synth_1 
+// Tcl Message: set_property -name "auto_incremental_checkpoint.directory" -value "/vvd_caravel_fpga.srcs/utils_1/imports/synth_1" -objects $obj 
+// Tcl Message: set_property -name "strategy" -value "Vivado Synthesis Defaults" -objects $obj 
+// Elapsed time: 127 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp to /vvd_caravel_fpga.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+// Tcl Message: ERROR: [Common 17-1294] Unable to create directory [/vvd_caravel_fpga.srcs/utils_1/imports/synth_1]. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-1294] Unable to create directory [/vvd_caravel_fpga.srcs/utils_1/imports/synth_1].  
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: RUN_MODIFY
+dismissDialog("Reset Run"); // A
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp to /vvd_caravel_fpga.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+// Tcl Message: ERROR: [Common 17-1294] Unable to create directory [/vvd_caravel_fpga.srcs/utils_1/imports/synth_1]. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-1294] Unable to create directory [/vvd_caravel_fpga.srcs/utils_1/imports/synth_1].  
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+// 'k' command handler elapsed time: 10 seconds
+dismissDialog("Launch Run Critical Messages"); // bu
+// Elapsed time: 13 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // l
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 810, 164); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 891, 158); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 850, 147); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 952, 150); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 922, 167); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1020, 162); // dT
+// Elapsed time: 17 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // l
+typeControlKey(null, null, 'z');
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 567, 90); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 228, 101); // dT
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // l
+// HMemoryUtils.trashcanNow. Engine heap size: 2,854 MB. GUI used memory: 133 MB. Current time: 11/16/23, 5:55:48 AM EST
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {set_property} {"/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/} {}'
+// Tcl Command: 'set obj [get_runs synth_1]; set_property -name "auto_incremental_checkpoint.directory" -value "/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/" -objects $obj; set_property -name "strategy" -value "Vivado Synthesis Defaults" -objects $obj'
+// Tcl Command: 'set obj [get_runs synth_1]'
+// Tcl Command: 'set_property -name "auto_incremental_checkpoint.directory" -value "/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/" -objects $obj'
+// TclEventType: RUN_OPTIONS_MODIFIED
+// Tcl Command: 'set_property -name "strategy" -value "Vivado Synthesis Defaults" -objects $obj'
+// Tcl Message: set obj [get_runs synth_1] 
+// Tcl Message: synth_1 
+// Tcl Message: set_property -name "auto_incremental_checkpoint.directory" -value "/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/" -objects $obj 
+// Tcl Message: set_property -name "strategy" -value "Vivado Synthesis Defaults" -objects $obj 
+// Elapsed time: 24 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 503, 152); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 668, 162); // dT
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp to /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/ and adding it to utils fileset 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: Wrote  : </home/ubuntu/labi/vvd_labi/vvd_labi.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+// Tcl Message: Verilog Output written to : /home/ubuntu/labi/vvd_labi/vvd_labi.gen/sources_1/bd/design_1/synth/design_1.v 
+// Tcl Message: Verilog Output written to : /home/ubuntu/labi/vvd_labi/vvd_labi.gen/sources_1/bd/design_1/sim/design_1.v Verilog Output written to : /home/ubuntu/labi/vvd_labi/vvd_labi.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block caravel_ps_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block output_pin_0 . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_pc . 
+// Tcl Message: INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created. INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created. INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_us . INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 . 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,916 MB. GUI used memory: 133 MB. Current time: 11/16/23, 5:56:03 AM EST
+// Tcl Message: INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created. INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0'. A default connection has been created. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/xbar . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/s00_couplers/auto_pc . INFO: [BD 41-1029] Generation completed for the IP Integrator block read_romcode_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block spiflash_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block caravel_0 . 
+// Tcl Message: Exporting to file /home/ubuntu/labi/vvd_labi/vvd_labi.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Hardware Definition File /home/ubuntu/labi/vvd_labi/vvd_labi.gen/sources_1/bd/design_1/synth/design_1.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// [Engine Memory]: 2,940 MB (+10678kb) [00:27:11]
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// HMemoryUtils.trashcanNow. Engine heap size: 3,000 MB. GUI used memory: 136 MB. Current time: 11/16/23, 5:56:23 AM EST
+// Tcl Message: ERROR: [Vivado 12-3280] Incremental checkpoint file '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1//caravel.dcp' set on run 'synth_1' does not exist. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-3280] Incremental checkpoint file '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1//caravel.dcp' set on run 'synth_1' does not exist.  
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 57 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+// 'k' command handler elapsed time: 58 seconds
+dismissDialog("Launch Run Critical Messages"); // bu
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 378, 177); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 503, 178); // dT
+// Elapsed time: 40 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_OPEN, (String) null); // ae
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_CHECKPOINT, "Open Checkpoint..."); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_CHECKPOINT
+// HMemoryUtils.trashcanNow. Engine heap size: 3,020 MB. GUI used memory: 137 MB. Current time: 11/16/23, 5:57:53 AM EST
+// Elapsed time: 59 seconds
+dismissFileChooser();
+// 'd' command handler elapsed time: 58 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 3, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, caravel (caravel.v)]", 4, true); // D - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: ERROR: [Vivado 12-3280] Incremental checkpoint file '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1//caravel.dcp' set on run 'synth_1' does not exist. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-3280] Incremental checkpoint file '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1//caravel.dcp' set on run 'synth_1' does not exist.  
+// Elapsed time: 25 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+// 'k' command handler elapsed time: 27 seconds
+dismissDialog("Launch Run Critical Messages"); // bu
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1, 144); // dT
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // dT
+// Elapsed time: 136 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: ERROR: [Vivado 12-3280] Incremental checkpoint file '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1//caravel.dcp' set on run 'synth_1' does not exist. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-3280] Incremental checkpoint file '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1//caravel.dcp' set on run 'synth_1' does not exist.  
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Launch Run Critical Messages"); // bu
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "System_zoom_fit"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true, false, false, false, true, false); // n - Popup Trigger - Node
+// Run Command: PAResourceCommand.PACommandNames_SHOW_IMPLEMENTED_DESIGN
+// PAPropertyPanels.initPanels (caravel.v) elapsed time: 0.2s
+selectButton(PAResourceOtoP.ProjectTab_CLOSE_DESIGN, "Close Design"); // g
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,044 MB. GUI used memory: 141 MB. Current time: 11/16/23, 6:02:06 AM EST
+// Engine heap size: 3,044 MB. GUI used memory: 142 MB. Current time: 11/16/23, 6:02:06 AM EST
+// TclEventType: CURR_DESIGN_SET
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Closing"); // bA
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13, true, false, false, false, true, false); // n - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_SYNTH_SETTINGS, "Synthesis Settings..."); // ar
+// Run Command: PAResourceCommand.PACommandNames_SYNTH_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// WARNING: HEventQueue.dispatchEvent() is taking  1955 ms.
+// [GUI Memory]: 212 MB (+13800kb) [00:33:10]
+selectButton(PAResourceItoN.IncrementalRunPanel_TURN_INCREMENTAL_IMPLEMENTATION_ON, (String) null); // s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,110 MB. GUI used memory: 137 MB. Current time: 11/16/23, 6:02:28 AM EST
+selectRadioButton(PAResourceItoN.IncrementalCompileChooserPanel_SPECIFY_DESIGN_CHECKPOINT, "New design checkpoint"); // a
+selectRadioButton(PAResourceItoN.IncrementalCompileChooserPanel_DISABLE_INCREMENTAL_SYNTHESIS, "Disable incremental synthesis"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'set_property AUTO_INCREMENTAL_CHECKPOINT 0 [get_runs synth_1]'
+// TclEventType: RUN_OPTIONS_MODIFIED
+dismissDialog("Incremental Synthesis"); // cb
+// Tcl Message: set_property AUTO_INCREMENTAL_CHECKPOINT 0 [get_runs synth_1] 
+// Tcl Message: INFO: [Vivado 12-7078] The incremental_compile property on the run reflects the DCP used to generate the current run results. If you do not want to use "/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1//caravel.dcp" for future runs, please clear the incremental_compile DCP run property. 
+// HOptionPane Warning: 'This incremental compile/synthesis file does not exist. (Could Not Find Checkpoint)'
+// [Engine Memory]: 3,111 MB (+24640kb) [00:33:29]
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(PAResourceItoN.IncrementalRunPanel_TURN_INCREMENTAL_IMPLEMENTATION_ON, (String) null); // s
+selectRadioButton(PAResourceItoN.IncrementalCompileChooserPanel_DISABLE_INCREMENTAL_SYNTHESIS, "Disable incremental synthesis"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Incremental Synthesis"); // cb
+// HOptionPane Warning: 'This incremental compile/synthesis file does not exist. (Could Not Find Checkpoint)'
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(PAResourceItoN.IncrementalRunPanel_TURN_INCREMENTAL_IMPLEMENTATION_ON, (String) null); // s
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Incremental Synthesis"); // cb
+// HOptionPane Warning: 'This incremental compile/synthesis file does not exist. (Could Not Find Checkpoint)'
+selectButton("OptionPane.button", "OK"); // JButton
+// Elapsed time: 23 seconds
+selectTree("PAResourceOtoP.ProgramOptionsPanelImpl_STRATEGY", "[Run Strategies, Vivado Strategies, Vivado Synthesis Defaults]", 2, false); // TreeChooserPanel.d
+selectTree("PAResourceQtoS.SettingsProjectRunPage_CHOOSE_REPORT_STRATEGY", "[Report Strategies, Vivado Report Strategies, Vivado Synthesis Default Reports]", 2, false); // TreeChooserPanel.d
+selectButton(PAResourceItoN.IncrementalRunPanel_TURN_INCREMENTAL_IMPLEMENTATION_ON, (String) null); // s
+selectComboBox(PAResourceItoN.IncrementalCompileChooserPanel_COMBO_BOX, "Add new design checkpoint", 1); // aY
+// HOptionPane Error: 'Invalid file '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/check.dcp'. File does not exist. (Invalid File)'
+// Elapsed time: 21 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+dismissFileChooser();
+selectRadioButton(PAResourceItoN.IncrementalCompileChooserPanel_SPECIFY_DESIGN_CHECKPOINT, "Specify design checkpoint"); // a
+selectRadioButton(PAResourceItoN.IncrementalCompileChooserPanel_AUTOMATICALLY_USE_CHECKPOINT, "Automatically use the checkpoint from the previous run"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'set_property AUTO_INCREMENTAL_CHECKPOINT 1 [get_runs synth_1]'
+dismissDialog("Incremental Synthesis"); // cb
+// Tcl Message: set_property AUTO_INCREMENTAL_CHECKPOINT 1 [get_runs synth_1] 
+// Tcl Message: ERROR: [Runs 36-527] DCP does not exist: /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1//caravel.dcp 
+// Tcl Command: 'set_property AUTO_INCREMENTAL_CHECKPOINT.DIRECTORY /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/ [get_runs synth_1]'
+// Tcl Message: set_property AUTO_INCREMENTAL_CHECKPOINT.DIRECTORY /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/ [get_runs synth_1] 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: RUN_MODIFY
+// Tcl Message: set_property flow {Vivado Synthesis 2022} [get_runs synth_1] 
+dismissDialog("Settings"); // d
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: ERROR: [Vivado 12-3280] Incremental checkpoint file '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1//caravel.dcp' set on run 'synth_1' does not exist. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-3280] Incremental checkpoint file '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1//caravel.dcp' set on run 'synth_1' does not exist.  
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Launch Run Critical Messages"); // bu
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13, true, false, false, false, true, false); // n - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_SYNTH_SETTINGS, "Synthesis Settings..."); // ar
+// Run Command: PAResourceCommand.PACommandNames_SYNTH_SETTINGS
+selectButton(PAResourceItoN.IncrementalRunPanel_TURN_INCREMENTAL_IMPLEMENTATION_ON, (String) null); // s
+selectRadioButton(PAResourceItoN.IncrementalCompileChooserPanel_SPECIFY_DESIGN_CHECKPOINT, "New design checkpoint"); // a
+selectCheckBox(PAResourceItoN.IncrementalCompileChooserPanel_COPY_SOURCES_INTO_PROJECT, "Copy sources into project", true); // g: TRUE
+selectCheckBox(PAResourceItoN.IncrementalCompileChooserPanel_COPY_SOURCES_INTO_PROJECT, "Copy sources into project", true); // g: TRUE
+selectComboBox(PAResourceItoN.IncrementalCompileChooserPanel_COMBO_BOX, "caravel.dcp", 0); // aY
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'set_property AUTO_INCREMENTAL_CHECKPOINT 0 [get_runs synth_1]'
+// TclEventType: RUN_OPTIONS_MODIFIED
+dismissDialog("Incremental Synthesis"); // cb
+// Tcl Message: set_property AUTO_INCREMENTAL_CHECKPOINT 0 [get_runs synth_1] 
+// Tcl Message: INFO: [Vivado 12-7078] The incremental_compile property on the run reflects the DCP used to generate the current run results. If you do not want to use "/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1//caravel.dcp" for future runs, please clear the incremental_compile DCP run property. 
+// HOptionPane Warning: 'This incremental compile/synthesis file does not exist. (Could Not Find Checkpoint)'
+selectButton("OptionPane.button", "OK"); // JButton
+// Elapsed time: 37 seconds
+selectButton(PAResourceItoN.IncrementalRunPanel_TURN_INCREMENTAL_IMPLEMENTATION_ON, (String) null); // s
+selectRadioButton(PAResourceItoN.IncrementalCompileChooserPanel_AUTOMATICALLY_USE_CHECKPOINT, "Automatically use the checkpoint from the previous run"); // a
+selectComboBox(PAResourceItoN.IncrementalCompileChooserPanel_DIRECTORY, "/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/", 0); // e
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'set_property AUTO_INCREMENTAL_CHECKPOINT 1 [get_runs synth_1]'
+dismissDialog("Incremental Synthesis"); // cb
+// Tcl Message: set_property AUTO_INCREMENTAL_CHECKPOINT 1 [get_runs synth_1] 
+// Tcl Message: ERROR: [Runs 36-527] DCP does not exist: /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1//caravel.dcp 
+// Tcl Command: 'set_property AUTO_INCREMENTAL_CHECKPOINT.DIRECTORY /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/ [get_runs synth_1]'
+// Tcl Message: set_property AUTO_INCREMENTAL_CHECKPOINT.DIRECTORY /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/ [get_runs synth_1] 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Settings"); // d
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: ERROR: [Vivado 12-3280] Incremental checkpoint file '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1//caravel.dcp' set on run 'synth_1' does not exist. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-3280] Incremental checkpoint file '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1//caravel.dcp' set on run 'synth_1' does not exist.  
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Launch Run Critical Messages"); // bu
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// HOptionPane Warning: 'The file "caravel.dcp" is being used as an incremental compile checkpoint. The file needs to be moved outside of synth_1's design run directory that is about to be removed. Choose a new location for the file before running the design. (caravel.dcp Needs to be Moved)'
+// 'k' command handler elapsed time: 12 seconds
+// Elapsed time: 12 seconds
+selectButton("OptionPane.button", "Cancel"); // JButton
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13, true, false, false, false, true, false); // n - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_SYNTH_SETTINGS, "Synthesis Settings..."); // ar
+// Run Command: PAResourceCommand.PACommandNames_SYNTH_SETTINGS
+selectButton(PAResourceItoN.IncrementalRunPanel_TURN_INCREMENTAL_IMPLEMENTATION_ON, (String) null); // s
+selectRadioButton(PAResourceItoN.IncrementalCompileChooserPanel_SPECIFY_DESIGN_CHECKPOINT, "New design checkpoint"); // a
+selectComboBox(PAResourceItoN.IncrementalCompileChooserPanel_COMBO_BOX, "caravel.dcp", 0); // aY
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'set_property AUTO_INCREMENTAL_CHECKPOINT 0 [get_runs synth_1]'
+// TclEventType: RUN_OPTIONS_MODIFIED
+dismissDialog("Incremental Synthesis"); // cb
+// Tcl Message: set_property AUTO_INCREMENTAL_CHECKPOINT 0 [get_runs synth_1] 
+// Tcl Message: INFO: [Vivado 12-7078] The incremental_compile property on the run reflects the DCP used to generate the current run results. If you do not want to use "/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1//caravel.dcp" for future runs, please clear the incremental_compile DCP run property. 
+// CommandFailedException: ERROR: [Runs 36-335] '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp' is not a valid design checkpoint 
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2022.1 (64-bit)
+# SW Build: 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Current time: Thu Nov 16 06:06:22 EST 2023
+# Process ID (PID): 150215
+# OS: Ubuntu
+# User: ubuntu
+# Project: vvd_labi
+# Part: pynq-z2 (xc7z020clg400-1)
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+ui.frmwork.cmd.CommandFailedException: ERROR: [Runs 36-335] '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp' is not a valid design checkpoint
+ (See /home/ubuntu/labi/vivado_pid150215.debug)
+*/
+// HOptionPane Error: 'ERROR: [Runs 36-335] '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp' is not a valid design checkpoint (Vivado v2022.1 (64-bit))'
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(PAResourceItoN.IncrementalRunPanel_TURN_INCREMENTAL_IMPLEMENTATION_ON, (String) null); // s
+selectRadioButton(PAResourceItoN.IncrementalCompileChooserPanel_DISABLE_INCREMENTAL_SYNTHESIS, "Disable incremental synthesis"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Incremental Synthesis"); // cb
+// CommandFailedException: ERROR: [Runs 36-335] '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp' is not a valid design checkpoint 
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2022.1 (64-bit)
+# SW Build: 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Current time: Thu Nov 16 06:06:31 EST 2023
+# Process ID (PID): 150215
+# OS: Ubuntu
+# User: ubuntu
+# Project: vvd_labi
+# Part: pynq-z2 (xc7z020clg400-1)
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+ui.frmwork.cmd.CommandFailedException: ERROR: [Runs 36-335] '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp' is not a valid design checkpoint
+ (See /home/ubuntu/labi/vivado_pid150215.debug)
+*/
+// HOptionPane Error: 'ERROR: [Runs 36-335] '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp' is not a valid design checkpoint (Vivado v2022.1 (64-bit))'
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(PAResourceItoN.IncrementalRunPanel_TURN_INCREMENTAL_IMPLEMENTATION_ON, (String) null); // s
+selectRadioButton(PAResourceItoN.IncrementalCompileChooserPanel_DISABLE_INCREMENTAL_SYNTHESIS, "Disable incremental synthesis"); // a
+selectButton(RDIResource.QuickHelp_HELP, (String) null); // v
+// Elapsed time: 23 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Incremental Synthesis"); // cb
+// CommandFailedException: ERROR: [Runs 36-335] '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp' is not a valid design checkpoint 
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2022.1 (64-bit)
+# SW Build: 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Current time: Thu Nov 16 06:07:00 EST 2023
+# Process ID (PID): 150215
+# OS: Ubuntu
+# User: ubuntu
+# Project: vvd_labi
+# Part: pynq-z2 (xc7z020clg400-1)
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+ui.frmwork.cmd.CommandFailedException: ERROR: [Runs 36-335] '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp' is not a valid design checkpoint
+ (See /home/ubuntu/labi/vivado_pid150215.debug)
+*/
+// HOptionPane Error: 'ERROR: [Runs 36-335] '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/caravel.dcp' is not a valid design checkpoint (Vivado v2022.1 (64-bit))'
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // j
+selectButton(PAResourceItoN.IncrementalRunPanel_TURN_INCREMENTAL_IMPLEMENTATION_ON, (String) null); // s
+selectRadioButton(PAResourceItoN.IncrementalCompileChooserPanel_AUTOMATICALLY_USE_CHECKPOINT, "Automatically use the checkpoint from the previous run"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'set_property AUTO_INCREMENTAL_CHECKPOINT 1 [get_runs synth_1]'
+dismissDialog("Incremental Synthesis"); // cb
+// Tcl Message: set_property AUTO_INCREMENTAL_CHECKPOINT 1 [get_runs synth_1] 
+// Tcl Message: ERROR: [Runs 36-335] '/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1//caravel.dcp' is not a valid design checkpoint 
+// Tcl Command: 'set_property AUTO_INCREMENTAL_CHECKPOINT.DIRECTORY /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/ [get_runs synth_1]'
+// Tcl Message: set_property AUTO_INCREMENTAL_CHECKPOINT.DIRECTORY /home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1/ [get_runs synth_1] 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Settings"); // d
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// HOptionPane Warning: 'The file "caravel.dcp" is being used as an incremental compile checkpoint. The file needs to be moved outside of synth_1's design run directory that is about to be removed. Choose a new location for the file before running the design. (caravel.dcp Needs to be Moved)'
+selectButton("OptionPane.button", "Choose New File Location"); // JButton
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Move caravel.dcp"); // v
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// HOptionPane Warning: 'The file "caravel.dcp" is being used as an incremental compile checkpoint. The file needs to be moved outside of synth_1's design run directory that is about to be removed. Choose a new location for the file before running the design. (caravel.dcp Needs to be Moved)'
+selectButton("OptionPane.button", "Choose New File Location"); // JButton
+setText(PAResourceAtoD.DeleteRunsTask_CHECKPOINT_LOCATION, "/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1"); // ap
+selectButton(PAResourceAtoD.DeleteRunsTask_CHECKPOINT_LOCATION, (String) null); // s
+setFolderChooser("/home/ubuntu/labi/vvd_labi/vvd_labi.runs/synth_1");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Move caravel.dcp"); // v
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// HOptionPane Warning: 'The file "caravel.dcp" is being used as an incremental compile checkpoint. The file needs to be moved outside of synth_1's design run directory that is about to be removed. Choose a new location for the file before running the design. (caravel.dcp Needs to be Moved)'
+// TclEventType: FILE_SET_CHANGE
+// 'k' command handler elapsed time: 24 seconds
+// Elapsed time: 24 seconds
+selectButton("OptionPane.button", "Cancel"); // JButton
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// HOptionPane Warning: 'The file "caravel.dcp" is being used as an incremental compile checkpoint. The file needs to be moved outside of synth_1's design run directory that is about to be removed. Choose a new location for the file before running the design. (caravel.dcp Needs to be Moved)'
+// 'k' command handler elapsed time: 4 seconds
+selectButton("OptionPane.button", "Cancel"); // JButton
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // n
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/ubuntu/labi/vvd_labi/vvd_labi.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // bA

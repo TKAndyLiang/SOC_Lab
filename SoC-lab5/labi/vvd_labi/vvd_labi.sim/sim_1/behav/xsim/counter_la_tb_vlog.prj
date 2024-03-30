@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "/home/ubuntu/labi/vvd_labi/vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/rtl/header/user_defines.v" "/home/ubuntu/labi/vvd_labi/vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/rtl/header/defines.v" --include "../../../../vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/rtl/header" --include "../../../../vvd_labi.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../vvd_labi.gen/sources_1/bd/design_1/ipshared/5765/hdl" --include "/tools/Xilinx/Vivado/2022.1/data/xilinx_vip/include" -d "FUNCTIONAL=" -d "SIM=" -d "DUNIT_DELAY=1" -d "USE_POWER_PINS=" \
+"../../../../vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/vip/RAM128.v" \
+"../../../../vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/vip/RAM256.v" \
+"../../../../vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/rtl/soc/VexRiscv_MinDebugCache.v" \
+"../../../../vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/rtl/soc/caravel.v" \
+"../../../../vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/rtl/soc/chip_io.v" \
+"../../../../vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/rtl/soc/gpio_control_block.v" \
+"../../../../vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/rtl/soc/gpio_defaults_block.v" \
+"../../../../vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/rtl/soc/housekeeping.v" \
+"../../../../vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/rtl/soc/housekeeping_spi.v" \
+"../../../../vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/rtl/soc/mgmt_core.v" \
+"../../../../vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/rtl/soc/mgmt_core_wrapper.v" \
+"../../../../vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/rtl/soc/mprj_io.v" \
+"../../../../vvd_labi.srcs/sim_1/imports/caravel_soc/vip/spiflash.v" \
+"../../../../vvd_labi.srcs/sim_1/imports/caravel_soc/vip/tbuart.v" \
+"../../../../vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/rtl/user/user_proj_example.counter.v" \
+"../../../../vvd_labi.srcs/sources_1/imports/vvd_srcs/caravel_soc/rtl/user/user_project_wrapper.v" \
+"../../../../vvd_labi.srcs/sim_1/imports/caravel_soc/counter_la/counter_la_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

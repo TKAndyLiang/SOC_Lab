@@ -1,0 +1,52 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.981323",
+   "Default View_TopLeft":"235,582",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port DDR_0 -pg 1 -lvl 3 -x 1150 -y 310 -defaultsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 3 -x 1150 -y 350 -defaultsOSRD
+preplace inst caravel_ps_0 -pg 1 -lvl 2 -x 800 -y 820 -defaultsOSRD
+preplace inst output_pin_0 -pg 1 -lvl 2 -x 800 -y 1180 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -x 800 -y 360 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -x 800 -y 600 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 800 -y 1350 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 1 -x 180 -y 390 -defaultsOSRD
+preplace inst read_romcode_0 -pg 1 -lvl 1 -x 180 -y 640 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 180 -y 850 -defaultsOSRD
+preplace inst spiflash_0 -pg 1 -lvl 1 -x 180 -y 1080 -defaultsOSRD
+preplace inst caravel_0 -pg 1 -lvl 2 -x 800 -y 1010 -defaultsOSRD
+preplace netloc blk_mem_gen_0_douta 1 0 2 -80 560 460J
+preplace netloc caravel_0_flash_clk 1 0 3 -60 1520 NJ 1520 1100
+preplace netloc caravel_0_flash_csb 1 0 3 -80 1540 NJ 1540 1110
+preplace netloc caravel_0_flash_io0 1 0 3 -50 1530 NJ 1530 1090
+preplace netloc caravel_0_mprj_en 1 1 2 560 1470 1050
+preplace netloc caravel_0_mprj_o 1 1 2 540 1480 1070
+preplace netloc caravel_ps_0_mprj_in 1 1 2 580 1460 1060
+preplace netloc output_pin_0_outpin 1 1 2 570 1510 1040
+preplace netloc processing_system7_0_FCLK_CLK1 1 0 3 -60 550 500 1490 1030
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 3 -70 1500 NJ 1500 1020
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 2 -90 210 450
+preplace netloc rst_ps7_0_50M_peripheral_reset 1 0 2 -50 950 390
+preplace netloc spiflash_0_io1 1 1 1 530 1040n
+preplace netloc spiflash_0_romcode_Addr_A 1 1 1 410 540n
+preplace netloc spiflash_0_romcode_Clk_A 1 1 1 470 560n
+preplace netloc spiflash_0_romcode_Din_A 1 1 1 480 580n
+preplace netloc spiflash_0_romcode_EN_A 1 1 1 440 620n
+preplace netloc spiflash_0_romcode_Rst_A 1 1 1 520 640n
+preplace netloc spiflash_0_romcode_WEN_A 1 1 1 510 660n
+preplace netloc S00_AXI_1 1 0 3 -60 220 N 220 1080
+preplace netloc axi_interconnect_0_M00_AXI 1 1 2 550 240 1040
+preplace netloc axi_interconnect_1_M00_AXI 1 1 1 490 370n
+preplace netloc axi_interconnect_1_M01_AXI 1 1 1 430 390n
+preplace netloc axi_interconnect_1_M02_AXI 1 0 2 -50 230 390
+preplace netloc processing_system7_0_DDR 1 2 1 1120 310n
+preplace netloc processing_system7_0_FIXED_IO 1 2 1 1130 350n
+preplace netloc read_romcode_0_internal_bram_PORTA 1 1 1 420 640n
+preplace netloc read_romcode_0_m_axi_BUS0 1 1 1 400 300n
+levelinfo -pg 1 -110 180 800 1150
+pagesize -pg 1 -db -bbox -sgen -110 -310 1280 1740
+"
+}
+0

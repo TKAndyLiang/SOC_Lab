@@ -1,0 +1,16 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(+0xbefecb) [0x7fe54cff6ecb]
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(JVM_handle_linux_signal+0xd1) [0x7fe54cffdc81]
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(+0xbead23) [0x7fe54cff1d23]
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/javafx-sdk-11.0.2/lib/libjfxwebkit.so(+0x205ae18) [0x7fe4fd459e18]
+/lib/x86_64-linux-gnu/libc.so.6(+0x43090) [0x7fe5a3e82090]
+/lib/x86_64-linux-gnu/libc.so.6(+0x46876) [0x7fe5a3e85876]
+/lib/x86_64-linux-gnu/libc.so.6(on_exit+0) [0x7fe5a3e85a60]
+/lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0(+0x66c0c) [0x7fe501ffcc0c]
+/lib/x86_64-linux-gnu/libX11.so.6(_XIOError+0x52) [0x7fe598b4e492]
+/lib/x86_64-linux-gnu/libX11.so.6(_XEventsQueued+0x7d) [0x7fe598b4bb4d]
+/lib/x86_64-linux-gnu/libX11.so.6(XEventsQueued+0x58) [0x7fe598b3d2b8]
+[0x7fe53c288c89]
